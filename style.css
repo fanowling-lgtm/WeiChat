@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(#a6d9ff, #e6f6ff);
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+}
+
+#chat {
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.6);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 40px rgba(0,150,255,0.4);
+}
+
+.msg {
+  background: linear-gradient(white, #dff3ff);
+  border-radius: 12px;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+.uid {
+  color: #0078d7;
+  font-weight: bold;
+  margin-right: 6px;
+}
